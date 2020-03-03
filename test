@@ -1,0 +1,25 @@
+#!/Users/zhangyaowen/Desktop/PythonWorkSpace
+# -*- coding: UTF-8 -*-
+# 文件名：tset.py
+
+myString = '哈哈哈，第一个python 程序'
+print(myString)
+
+if True:
+	print("True")
+else:
+	print("false")
+
+print('2**10',‘中文’,'pythonda')
+
+name = input('please enter your name: ')
+print('hello,', name)
+print('1024 * 768 =',1024*768)
+print('1.2e2 - 1 = ',1.2e2-1)
+print('I\'m \n\tzhangyaowen\n \"ok\"')
+print(r'\\\\zhang \rdajh \tdahj ')
+print('''line1
+line2
+line3''')
+
+print('3 > 2 and 4 > 1 is ',3 > 2 and 4 > 1,'\n3 > 2 or 4 > 1 is ',3 > 2 or 4 > 1)
